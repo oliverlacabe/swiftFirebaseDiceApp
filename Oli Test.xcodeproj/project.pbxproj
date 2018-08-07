@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F83282D211236B300C62678 /* olitest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F83282C211236B300C62678 /* olitest.plist */; };
+		1F83282F211309E200C62678 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F83282E211309E200C62678 /* RegisterViewController.swift */; };
+		1F8328312113190E00C62678 /* olitest2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F8328302113190E00C62678 /* olitest2.plist */; };
+		1F83283F21137F9B00C62678 /* userCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F83283E21137F9B00C62678 /* userCellTableViewCell.swift */; };
+		1F832841211381B600C62678 /* UsersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F832840211381B600C62678 /* UsersData.swift */; };
+		1F8328432113831600C62678 /* UsersDataControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8328422113831600C62678 /* UsersDataControllerViewController.swift */; };
 		1F94C918210F39340019323F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94C917210F39340019323F /* AppDelegate.swift */; };
 		1F94C91A210F39340019323F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94C919210F39340019323F /* ViewController.swift */; };
 		1F94C91D210F39340019323F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F94C91B210F39340019323F /* Main.storyboard */; };
 		1F94C91F210F39340019323F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F94C91E210F39340019323F /* Assets.xcassets */; };
 		1F94C922210F39340019323F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F94C920210F39340019323F /* LaunchScreen.storyboard */; };
+		1FD12AA221106B6700B73F86 /*  UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD12AA121106B6700B73F86 /*  UIButtonExtension.swift */; };
+		1FD12AA4211085C900B73F86 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD12AA3211085C900B73F86 /* UIImageExtension.swift */; };
+		1FD12AA82110A59C00B73F86 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD12AA72110A59C00B73F86 /* PlayerViewController.swift */; };
+		BBE639D9E0AA5B2EFE6BC0BE /* Pods_Oli_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168212ED8572124A4713198B /* Pods_Oli_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0861D920A2DA07F694014941 /* Pods-Oli Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oli Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oli Test/Pods-Oli Test.debug.xcconfig"; sourceTree = "<group>"; };
+		168212ED8572124A4713198B /* Pods_Oli_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oli_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F83282C211236B300C62678 /* olitest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = olitest.plist; path = ../../../../Downloads/olitest.plist; sourceTree = "<group>"; };
+		1F83282E211309E200C62678 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1F8328302113190E00C62678 /* olitest2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = olitest2.plist; path = ../../../../Downloads/olitest2.plist; sourceTree = "<group>"; };
+		1F83283E21137F9B00C62678 /* userCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userCellTableViewCell.swift; sourceTree = "<group>"; };
+		1F832840211381B600C62678 /* UsersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersData.swift; sourceTree = "<group>"; };
+		1F8328422113831600C62678 /* UsersDataControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDataControllerViewController.swift; sourceTree = "<group>"; };
 		1F94C914210F39340019323F /* Oli Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oli Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F94C917210F39340019323F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F94C919210F39340019323F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,10 @@
 		1F94C91E210F39340019323F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F94C921210F39340019323F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F94C923210F39340019323F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD12AA121106B6700B73F86 /*  UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " UIButtonExtension.swift"; sourceTree = "<group>"; };
+		1FD12AA3211085C900B73F86 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		1FD12AA72110A59C00B73F86 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		DC1BD851475B6CEC47D1433C /* Pods-Oli Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oli Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oli Test/Pods-Oli Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE639D9E0AA5B2EFE6BC0BE /* Pods_Oli_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,8 @@
 			children = (
 				1F94C916210F39340019323F /* Oli Test */,
 				1F94C915210F39340019323F /* Products */,
+				8E7ECE3E0B7A1DA79A00B2D7 /* Pods */,
+				607ED99C8E911E6F19A211F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,40 @@
 		1F94C916210F39340019323F /* Oli Test */ = {
 			isa = PBXGroup;
 			children = (
+				1F8328302113190E00C62678 /* olitest2.plist */,
+				1F83282C211236B300C62678 /* olitest.plist */,
 				1F94C917210F39340019323F /* AppDelegate.swift */,
 				1F94C919210F39340019323F /* ViewController.swift */,
+				1FD12AA72110A59C00B73F86 /* PlayerViewController.swift */,
+				1F83282E211309E200C62678 /* RegisterViewController.swift */,
+				1F83283E21137F9B00C62678 /* userCellTableViewCell.swift */,
 				1F94C91B210F39340019323F /* Main.storyboard */,
+				1FD12AA121106B6700B73F86 /*  UIButtonExtension.swift */,
+				1FD12AA3211085C900B73F86 /* UIImageExtension.swift */,
 				1F94C91E210F39340019323F /* Assets.xcassets */,
 				1F94C920210F39340019323F /* LaunchScreen.storyboard */,
 				1F94C923210F39340019323F /* Info.plist */,
+				1F832840211381B600C62678 /* UsersData.swift */,
+				1F8328422113831600C62678 /* UsersDataControllerViewController.swift */,
 			);
 			path = "Oli Test";
+			sourceTree = "<group>";
+		};
+		607ED99C8E911E6F19A211F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				168212ED8572124A4713198B /* Pods_Oli_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E7ECE3E0B7A1DA79A00B2D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0861D920A2DA07F694014941 /* Pods-Oli Test.debug.xcconfig */,
+				DC1BD851475B6CEC47D1433C /* Pods-Oli Test.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F94C926210F39340019323F /* Build configuration list for PBXNativeTarget "Oli Test" */;
 			buildPhases = (
+				6ED33D74A7123E74A9E8716B /* [CP] Check Pods Manifest.lock */,
 				1F94C910210F39340019323F /* Sources */,
 				1F94C911210F39340019323F /* Frameworks */,
 				1F94C912210F39340019323F /* Resources */,
+				889604E552604D24107F4DF1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,10 +179,55 @@
 				1F94C922210F39340019323F /* LaunchScreen.storyboard in Resources */,
 				1F94C91F210F39340019323F /* Assets.xcassets in Resources */,
 				1F94C91D210F39340019323F /* Main.storyboard in Resources */,
+				1F8328312113190E00C62678 /* olitest2.plist in Resources */,
+				1F83282D211236B300C62678 /* olitest.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6ED33D74A7123E74A9E8716B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oli Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		889604E552604D24107F4DF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Oli Test/Pods-Oli Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oli Test/Pods-Oli Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1F94C910210F39340019323F /* Sources */ = {
@@ -138,6 +236,13 @@
 			files = (
 				1F94C91A210F39340019323F /* ViewController.swift in Sources */,
 				1F94C918210F39340019323F /* AppDelegate.swift in Sources */,
+				1F8328432113831600C62678 /* UsersDataControllerViewController.swift in Sources */,
+				1F83283F21137F9B00C62678 /* userCellTableViewCell.swift in Sources */,
+				1FD12AA221106B6700B73F86 /*  UIButtonExtension.swift in Sources */,
+				1F83282F211309E200C62678 /* RegisterViewController.swift in Sources */,
+				1FD12AA4211085C900B73F86 /* UIImageExtension.swift in Sources */,
+				1F832841211381B600C62678 /* UsersData.swift in Sources */,
+				1FD12AA82110A59C00B73F86 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +377,7 @@
 		};
 		1F94C927210F39340019323F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0861D920A2DA07F694014941 /* Pods-Oli Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +392,7 @@
 		};
 		1F94C928210F39340019323F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1BD851475B6CEC47D1433C /* Pods-Oli Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
